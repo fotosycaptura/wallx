@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Created-By: JPM
+Specified-By: /wallx.jarContent
+Main-Class: xcx.wallx
+
