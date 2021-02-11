@@ -9,6 +9,11 @@ Tiene dos modos de operación:
 * Consola
 * GUI
 
+Si se realiza la instrucción siguiente
+> java -jar wallx.jar --help
+
+se desplegará lo siguiente:
+
 Wall X es un programa diseñado para realizar un cambio
 aleatorio de Wallpaper en cada inicio del sistema.
 Su sintáxis es la siguiente:  
@@ -18,5 +23,14 @@ wallx -gui      : Inicia la aplicación en modo gráfico
 wallx -cw       : Realiza el cambio aleatorio de wallpaper en modo texto  
 wallx -cfg OSX  : Crea el archivo de configuración para wallx, donde OSX equivale  
                   a las siguientes opciones: 1 y 2, donde 1=Linux y 2=Windows
-                  
-Esta aplicación la liberé en el 2004 y desde entonces no ha tenido mantenciones ni mejoras, se pueden mejorar muchas cosas, pero no se si a estas alturas sea necesario.
+
+# Configuración en Linux
+La instalación es sencilla, bastará con contar con Java para funcionar.
+Se debe de copiar en alguna carpeta o directorio, dejar como servicio y que ejecute las sentencias
+> java -jar wallx.jar -cw
+
+Cada vez que se inicie el sistema e inicie el servicio, se cambiará la imagen wallx.jpg. Posteriormente, en el perfil del usuario, se debe de crear un enlace duro con el comando ln para que apunte al archivo de imagen.
+
+Si mal no recuerdo eso era todo.
+
+Esta aplicación la liberé en el 2004 y desde entonces no ha tenido mantenciones ni mejoras, se pueden mejorar muchas cosas, pero no se si a estas alturas sea necesario, dado que deben de existir mejores alternativas.
